@@ -1,0 +1,5 @@
+6.2
+- The app only support the profile:update or cover:update special wall posts, so ignore others
+- Replace wall_list_user and wall_list_home as above point
+
+The reason is current ossn item_type isn't stored unless specified so there is no easy way to modify those methods.
